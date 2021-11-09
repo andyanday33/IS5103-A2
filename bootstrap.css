@@ -35,7 +35,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #3459e6;
+  --bs-primary: rgba(40, 58, 90, 0.9); /** Modify primary color*/
   --bs-secondary: #fff;
   --bs-success: #2fb380;
   --bs-info: #287bb5;
@@ -43,7 +43,7 @@
   --bs-danger: #da292e;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 52, 89, 230;
+  --bs-primary-rgb: 40, 58, 90;
   --bs-secondary-rgb: 255, 255, 255;
   --bs-success-rgb: 47, 179, 128;
   --bs-info-rgb: 40, 123, 181;
@@ -4326,6 +4326,7 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding-top: 0.85rem;
   padding-bottom: 0.85rem;
+  background-color: rgba(40, 58, 90, 0.9);
 }
 
 .navbar > .container,
@@ -5200,15 +5201,23 @@ fieldset:disabled .btn {
   border-radius: 0;
 }
 
+/** Change padding and background-color for breadcrumb */
+
+.breadcrumbs {
+  background-color: #f3f5fa;
+}
+
 .breadcrumb {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 0 1rem;
+  padding: 0 0rem;
   margin-bottom: 1rem;
   list-style: none;
 }
+
+
 
 .breadcrumb-item + .breadcrumb-item {
   padding-left: 0.5rem;
@@ -5221,9 +5230,7 @@ fieldset:disabled .btn {
   content: var(--bs-breadcrumb-divider, ">") /* rtl: var(--bs-breadcrumb-divider, ">") */;
 }
 
-.breadcrumb-item.active {
-  color: #6c757d;
-}
+
 
 .pagination {
   display: -ms-flexbox;
@@ -11555,10 +11562,11 @@ thead th {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
+/** Delete border */
 .breadcrumb {
-  border: 1px solid #dee2e6;
+  /* border: 1px solid #dee2e6;
   border-radius: 0.25rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); */
   font-size: 0.875rem;
   font-weight: 500;
 }

@@ -1,0 +1,20 @@
+/*!
+ * Extra css setting
+*/
+
+/** For footer color*/
+.page-footer {
+    background-color: #37517e;
+}
+
+/** For breadcrumb */
+.breadcrumb-item.active {
+    color: #444444;
+  }
+
+.breadcrumbs h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #37517e;
+  }
+
