@@ -24,7 +24,7 @@
  }
 
  .breadcrumbs a {
-    color: #47b2e4;
+    color: #11668d;
     text-decoration: none;
 }
 
@@ -128,4 +128,20 @@ article header h2 {
 
 .article-collapse:hover{
     cursor: pointer;
+}
+
+
+article .bg-primary h3,h4,h5,h6{
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+article .bg-primary a{
+    color: #f18686;
+}
+
+figcaption {
+	font: italic small/1.2 Georgia, Times, "Times New Roman", Serif;
+    font-size: 0.9em;
+    text-align: center;
 }
