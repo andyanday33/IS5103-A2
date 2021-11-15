@@ -42,22 +42,32 @@ figcaption {
 
 
 /*--------------------------------------------------------------
-# Home-sections
+# Sections
 --------------------------------------------------------------*/
-.home-section {
+.groupd-section {
     padding: 50px 0;
 }
-  
-.home-section .content h3 {
+
+.groupd-section .content h2 {
+    text-transform: capitalize;
+    font-weight: 450;
+    font-size: 28px;
+}
+
+.groupd-section .content h3 {
     text-transform: capitalize;
     font-weight: 450;
     font-size: 26px;
 }
   
-.home-section-bg {
+.groupd-section-bg {
     background-color: #f3f5fa;
 }
-  
+
+
+/*--------------------------------------------------------------
+# Home Sesction Titles
+--------------------------------------------------------------*/
 .home-section-title {
     text-align: center;
     padding-bottom: 30px;
