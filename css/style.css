@@ -177,3 +177,8 @@ article img{
     margin: auto;
 }
 
+article .card-header{
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
